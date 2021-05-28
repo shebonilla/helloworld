@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,32 @@
     <title>HbdayKa</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Feliz Cumpleaños Ka</h1>
-    <h2>ho!</h2>
-<!--    <img src="asset/hbd01.jpg" alt="hbd">-->
+    <div class="container-img">
+        <img src="asset/hbd01.jpg" alt="">
+        <div class="congrats-container" id="congrats-container">
+        </div>
+        <div class="hover-text" id="hover-text">
+            <p>KARLA MARIAAAAAA</p>
+        </div>
+        <div class="disclaimer">
+            <p>Por ti volvi a tocar javascript char. Hecho por She, Tavo y Nat</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById("congrats-container").addEventListener("click", displayDate);
+
+        function displayDate() {
+            let x = document.getElementById("hover-text");
+            if (x.style.display == "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
 </body>
+
 </html>
