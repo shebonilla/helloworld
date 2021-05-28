@@ -43,7 +43,7 @@ body {
 
 	border: 1px solid rgb(144, 218, 150);
 	border-radius: 15px;
-	display: block;
+	display: none;
 	padding: 1em;
 	position: absolute;
 }
