@@ -29,10 +29,10 @@ body {
 
 .congrats-container {
 	background-color: transparent;
-	height: 160px;
-	width: 100px;
+	height: 140px;
+	width: 75px;
 	position: absolute;
-	top: 35em;
+	top: 36em;
 	left: 18em;
 }
 
@@ -51,6 +51,7 @@ body {
 	color: rgb(20, 116, 20);
 	font-family: "DK";
 	text-align: center;
+	font-size: 16pt;
 }
 
 .disclaimer {
