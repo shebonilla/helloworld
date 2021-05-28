@@ -36,16 +36,20 @@ body {
 }
 
 .hover-text {
-	display: none;
-	background-color: rgb(180, 255, 208);
-	padding: 1em;
-	border-radius: 15px;
-	border: 1px solid rgb(144, 218, 150);
-	position: absolute;
 	top: 31em;
-	left: 20em;
+	left: 22em;
+	background-color: rgb(180, 255, 208);
+
+	border: 1px solid rgb(144, 218, 150);
+	border-radius: 15px;
+	display: block;
+	padding: 1em;
+	position: absolute;
+}
+.hover-text p {
 	color: rgb(20, 116, 20);
-	font-weight: bold;
+	font-family: "DK";
+	text-align: center;
 }
 
 .disclaimer {
