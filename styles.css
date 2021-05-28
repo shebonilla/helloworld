@@ -1,11 +1,12 @@
 /* body {
-	background-image: url('asset/hbd01.jpg');
+background-image: url('asset/hbd01.jpg');
 } */
 * {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
 	height: 100vh;
 	width: 100vw;
@@ -59,11 +60,11 @@ body {
 	text-align: center;
 }
 
-/* 
+/*
 .container-img {
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	justify-self: center;
-	background-color: purple !important;
+display: flex;
+justify-content: center;
+text-align: center;
+justify-self: center;
+background-color: purple !important;
 } */
