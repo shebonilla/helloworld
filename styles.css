@@ -25,7 +25,10 @@ body {
 	top: 35em;
 	left: 18em;
 }
-
+@font-face {
+	font-family:"3Dventure";
+	src: url('asset/3Dventure.ttf');
+}
 .hover-text {
 	display: none;
 	background-color: rgb(180, 255, 208);
@@ -36,7 +39,7 @@ body {
 	top: 31em;
 	left: 20em;
 	color: rgb(20, 116, 20);
-	font-weight: bold;
+	font-family: 3Dventure;
 }
 
 .disclaimer {
