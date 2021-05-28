@@ -12,6 +12,16 @@ body {
 	color: #333;
 }
 
+@font-face {
+	font-family: "3Dventure";
+	src: url('asset/3Dventure.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "DK";
+	src: url('asset/DK Lemon Yellow Sun.otf') format("opentype");
+}
+
 .container-img {
 	position: absolute;
 }
